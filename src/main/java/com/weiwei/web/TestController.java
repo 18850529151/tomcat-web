@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @RequestMapping("/0")
+    @RequestMapping("/")
     public String m0() {
         return "default ->" + System.currentTimeMillis();
     }
