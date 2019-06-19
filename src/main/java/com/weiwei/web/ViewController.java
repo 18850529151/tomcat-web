@@ -12,7 +12,7 @@ public class ViewController {
 
     @RequestMapping("/home")
     public String m0() {
-        return "home";
+        return "/home.html";
     }
 
 }
